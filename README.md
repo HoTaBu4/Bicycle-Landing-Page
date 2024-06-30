@@ -19,8 +19,8 @@ Follow these instructions to set up and run the project locally.
     - navigate t oyour repository
 3. npm install
     - Install Dependencies
-3. Start the Project
-    - npm start
+3. npm start
+    - Start the Project
     
 # Base layout template with Gulp, SCSS and Stylelint
 1. Create a repo using this template
