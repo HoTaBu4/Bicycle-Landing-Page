@@ -16,7 +16,7 @@ Follow these instructions to set up and run the project locally.
 1. git clone https://github.com/HoTaBu4/landing_page_my-bike.git
     - clone repository
 2. cd your-repositor
-    - navigate t oyour repository
+    - navigate to your repository
 3. npm install
     - Install Dependencies
 3. npm start
