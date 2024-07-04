@@ -14,13 +14,13 @@ Follow these instructions to set up and run the project locally.
 
 # How to clone this repository on your pc
 1. git clone https://github.com/HoTaBu4/landing_page_my-bike.git
-    clone repository
+    - clone repository
 2. cd <your-repository>
-    navigate t oyour repository
+    - navigate t oyour repository
 3. npm install
-    Install Dependencies
+    - Install Dependencies
 3. Start the Project
-    npm start
+    - npm start
     
 # Base layout template with Gulp, SCSS and Stylelint
 1. Create a repo using this template

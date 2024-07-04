@@ -51,8 +51,6 @@
   }
 }
 
-
-
 .info__phone,.info__mail,.info__adress {
   line-height: 140%;
   font-weight: 400;
@@ -92,27 +90,31 @@
   }
 
   .form {
-     &__input {
-      font-size: 14px;
-      line-height: 20px;
+    &__input {
       border-radius: 40px;
       min-width: 100%;
       max-width: 411px;
+      
       color: $grey;
       box-sizing: border-box;
+      font-family: Poppins, sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
     }
-     &__name ,&__email {
+
+    &__name ,&__email {
       height: 48px;
       padding: 14px 16px;
         &:not(:last-child) {
           margin-bottom: 16px;
         }
-     }
+    }
 
-     &__texarea {
+    &__textarea {
       margin-bottom: 32px;
-     }
- }
+    }
+  }
 }
 
 .form {
@@ -135,7 +137,7 @@
       }
     }
 
-		&__texarea {
+		&__textarea {
       padding: 14px 16px;
       vertical-align: top;
       resize: none;
