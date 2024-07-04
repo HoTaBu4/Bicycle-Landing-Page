@@ -1,3 +1,7 @@
+# Links
+ - [DEMO LINK](https://HoTaBu4.github.io/landing_page_my-bike/)
+ - Mockup [Link](https://www.figma.com/design/DHDOA6OHFEKEVPLUyHnlUj/BIKE-New-Version-(Copy)?node-id=0-1&t=1qnYqz1WYTN8EP4i-0)
+
 ## Getting Started
 
 Follow these instructions to set up and run the project locally.
@@ -24,5 +28,5 @@ Follow these instructions to set up and run the project locally.
     
 # Base layout template with Gulp, SCSS and Stylelint
 1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
+2. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
     - [DEMO LINK](https://HoTaBu4.github.io/landing_page_my-bike/)
