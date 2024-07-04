@@ -94,7 +94,7 @@
       border-radius: 40px;
       min-width: 100%;
       max-width: 411px;
-      
+
       color: $grey;
       box-sizing: border-box;
       font-family: Poppins, sans-serif;
@@ -129,11 +129,12 @@
       color: $grey;
       min-width: 277px;
       width: 100%;
+      transition: all 0.5s ease;
+
       &:active,&:focus {
-        transition: scale 0.5s ease;
         outline: none;
         color: black;
-        scale: 1.05;
+        transform: scale(1.05);
       }
     }
 

@@ -32,6 +32,24 @@ body {
     top: 356px;
   }
 
+  &__button {
+    border-radius: 40px;
+    height: 56px;
+    max-width: 392px;
+    min-width: 278px;
+    font-weight: bold;
+    line-height: 27px;
+
+    border: none;
+    box-shadow: 0 0 0 0;
+    transition: all 0.5s ease;
+
+    &:hover {
+      cursor: pointer; 
+      box-shadow: 1px 4px 16px 0 #e8e8f066;
+    }
+  }
+
   &__slogan {
     display: flex;
     flex-direction: column;
@@ -62,16 +80,6 @@ body {
     letter-spacing: -1.5px;
     text-align: center;
   }
-
-  &__button {
-    border-radius: 40px;
-    height: 56px;
-    max-width: 392px;
-    min-width: 278px;
-    font-weight: bold;
-    line-height: 27px;
-    border: none;
-  }
 }
 
 .cards {
@@ -98,10 +106,8 @@ body {
   &__card-image {
     padding-bottom: 32px;
     width: 100%;
-    &:hover {
-      scale: 1.08;
-      transition: scale 0.5s ease;
-    }
+    
+    @include hover-scale-element(1.1)
   }
 }
 
@@ -109,10 +115,7 @@ body {
 .hydraulic,
 .range {
   & img {
-    &:hover {
-      transition: transform 0.5s ease;
-      transform: scale(1.05);
-    }
+    @include hover-scale-element(1.05)
   }
 }
 
@@ -153,13 +156,6 @@ body {
 }
 
 @media (min-width: 744px) {
-  .main__button {
-    &:hover {
-      cursor: pointer;
-      transition: box-shadow 0.5s ease;
-      box-shadow: 1px 4px 16px 0 #e8e8f066;
-    }
-  }
   .main {
     &__compare-Bikes {
       align-items: normal;

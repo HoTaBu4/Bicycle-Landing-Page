@@ -5,7 +5,7 @@ Follow these instructions to set up and run the project locally.
 ### Prerequisites
 
 - **Git**: [Install Git](https://git-scm.com/downloads)
-- **Node.js**: Version 14.17.3, [Install Node.js](https://nodejs.org/dist/v14.17.3/)
+- **Node.js**: Version 14.21.3, [Install Node.js](https://nodejs.org/dist/v14.17.3/)
 
 # Used Technologies
 - sass
